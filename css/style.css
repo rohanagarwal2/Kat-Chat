@@ -1,0 +1,79 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 50px;
+}
+
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+}
+
+.container{
+    max-width: 1000px;
+    height : 60vh;
+    margin: auto;
+    border-radius: 10px;
+    overflow-y: auto;
+    border: 2px solid black;
+    padding : 33px;
+    margin-bottom: 23px;
+}
+
+.message{
+    background-color: blanchedalmond;
+    width: 24%;
+    padding: 10px;
+    margin : 30px  2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.center{
+    margin : auto;
+    clear : both;
+}
+
+.left{
+    float : left;
+    clear : both;
+}
+
+.right{
+    float : right;
+    clear : both;
+}
+
+#send-container{
+    text-align: center;
+    width: 1085px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#messageInp{
+    width: 89%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height : 34px;
+
+
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height : 34px;
+    width: 9%;
+
+}
+
+body{
+    background-image: linear-gradient(rgb(255 , 255 , 255) , rgb(55, 220, 231));
+}
